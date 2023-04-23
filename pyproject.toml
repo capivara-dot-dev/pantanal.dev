@@ -5,3 +5,13 @@ tag_format = "$version"
 
 [tool.isort]
 profile = "black"
+
+[tool.black]
+exclude = '''
+^(
+    \.git
+  | data
+  | docs
+)$|\.tmp$
+  |\.md$
+'''
