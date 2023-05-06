@@ -11,3 +11,5 @@ dependencies:
   - commitizen=2.28
   - black=22.6
   - git=2.40
+  - transformers=4.28
+  - sentencepiece=0.1
