@@ -13,3 +13,7 @@ dependencies:
   - git=2.40
   - bs4=4.12
   - scrapy=2.8
+  - transformers=4.28
+  - tensorflow=2.12
+  - torch=2.0
+  - scikit-learn=1.2.2

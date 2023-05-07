@@ -9,7 +9,6 @@ init:
 	pre-commit install --hook-type commit-msg --hook-type pre-push
 
 docker:
-	docker compose build capivara.dev
+	docker build -t capivara.dev .
 	@echo ">>> docker build"
-	@echo ">>> run it using 'docker compose up capivara.dev &'"
-	@echo ">>> connect to it using dev containers"
+	@echo ">>> run it using 'docker run capivara.dev &'"
