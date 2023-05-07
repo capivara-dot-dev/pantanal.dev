@@ -20,7 +20,7 @@ A ML for finance market news prediction
 ## Project Organization
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
+    ├── Makefile           <- Makefile with commands like or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
@@ -28,13 +28,9 @@ A ML for finance market news prediction
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- Project documentation
+    ├── models             <- Trained and serialized models
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Jupyter notebooks.
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
@@ -43,7 +39,9 @@ A ML for finance market news prediction
     │
     └── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 
-> The data folder is not present on the repository and must be made on each person clone
+> The data folder is not present on the repository and must be made on each person clone, in most cases the notebooks
+> we'll cite some csv that are not present in this repo, if the data is required please send an email to
+> lkazu@duck.com
 
 ---
 
@@ -79,4 +77,5 @@ all dependencies will be installed, and you should be in the conda enviroment.
 
 ---
 
+---
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
